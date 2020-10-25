@@ -1,0 +1,957 @@
+
+<!DOCTYPE html > 
+<html>
+<head>
+<title>Profile Page</title>
+<!--Start Css Files --> 
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/animate.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/select2.min.css">
+<script src="https://cdn.ckeditor.com/4.7.2/standard/ckeditor.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/jquery.bxslider.css">
+    
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="css/stylish.css" />
+<!--End Css Files --> 
+</head>
+<body>
+    
+<!--Start Navbar --> 
+<nav class="navbar navbar-default">
+    
+    
+  <div class="container">
+        <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">New LifeHR</a>
+    </div>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       
+    
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <li><a href="#">Contact us (0120718551) <i class="fa fa-phone"></i></a></li>
+          <li><a href="#">Chat Room <i class="fa fa-comments"></i></a></li> 
+        </li>
+      
+    
+        </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    
+    
+<!-- End Top Navbar -->    
+    
+
+<!-- multistep form -->
+     <div class="post-jobs">
+         
+         <form id="msform" class="form-horizontal">
+   
+	  <fieldset>
+
+        <h2 class="fs-title " >Job Information <img src="images/icones/briefcase.png"> </h2>
+        
+         <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-2 mylabel">Job Title <img src="images/briefcase.png"></label> 
+            <div class="col-md-6">
+            	<input type="text" name="job_title" placeholder="Ex: Android Developer" />  
+            </div>
+          </div>
+         </div>
+	  </div>
+        
+   
+     
+            <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-2 mylabel">Job Description </label> 
+            <div class="col-md-6">
+              <textarea class="form-control" name="main_problem" rows="5" cols="5">
+              </textarea>
+            </div>
+          </div>
+         </div>
+	  </div>
+		  
+		  
+		  
+              
+          <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-2 mylabel"> Salary For  Job <img src="images/icones/coins.png"></label> 
+            <div class="col-md-6">
+                <div class="col-md-4 col-md-offset-1">
+    <input type="number" placeholder="Start Salary " name="start_salary"> 
+                </div>
+  <div class="col-md-4">
+  <input type="number" placeholder="End Salary " name="start_salary">
+                </div>
+		 <div class="col-md-3">
+  <input class="Debatable" type="checkbox" name="start_salary">Debatable<br>
+                </div>
+            </div>
+          </div>
+         </div>
+	  </div>
+          
+        
+       
+		              <div class="container">
+       
+   <div class="form-conrol">
+             <label class="control-label col-md-2 mylabel">Required Skills <img src="images/icones/settings.png"> </label>         
+                        <div class="col-md-5">
+<select id="myselect2" class="form-control" multiple="multiple">
+  <option selected="selected">html</option>
+  <option>css</option>
+  <option selected="selected">java</option>
+</select>
+           </div>
+      </div>
+				   
+	  </div>
+	
+              <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-2 mylabel">Job Type <img src="images/icones/alarm-clock.png"></label> 
+            <div class="col-md-6">
+            	  <select class="form-control" >
+             <option >Full Time </option>
+             <option>Part Time</option>
+             <option>Contracts</option>
+                 
+             </select>   
+            </div>
+          </div>
+         </div>
+	  </div>
+         
+
+              <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-2 mylabel">Job City  <img src="images/icones/placeholder.png"></label> 
+            <div class="col-md-6">
+            	<input type="text" name="job_title" placeholder="Enter Job City " />  
+            </div>
+          </div>
+         </div>
+	  </div>
+          <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+        <label class="control-label col-md-2 mylabel">Country <img src="images/icones/placeholder.png"></label> 
+            <div class="col-md-6">
+            	<input type="text" name="job_title" placeholder="Job Country " />  
+            </div>
+          </div>
+         </div>
+	  </div>
+        <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-2 mylabel">Postal Code <img src="images/icones/skills.png"></label> 
+            <div class="col-md-6">
+            	<input type="text" name="job_title" placeholder="Contry Postal Code " />  
+            </div>
+          </div>
+         </div>
+	  </div>
+    
+       <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-2 mylabel">Experience<img src="images/icones/mailbox.png"></label> 
+            <div class="col-md-6">
+            	<input type="text" name="job_title" placeholder="Contry Postal Code " />  
+            </div>
+          </div>
+         </div>
+	  </div>
+    
+    
+    
+    
+		<input type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>  
+			   <fieldset>
+		<h2 class="fs-title">Select Required Career </h2>
+		   		   
+		   
+    <!-- Start  Websites And IT (1) Modal -->
+    <div class="modal fade" id="successModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-television"></i> IT, Software development</h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="IT[]" value="API development">API development<br>
+                                <input type="checkbox" name="IT[]" value="Cloud computing">Cloud computing <br>
+                                <input type="checkbox" name="IT[]" value="Computer system analyst">Computer system analyst <br>
+                                <input type="checkbox" name="IT[]" value="Computer support"> Computer support <br>
+
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="IT[]"  value="Database administrator" >Database administrator<br>
+                                <input type="checkbox" name="IT[] " value="Embedded system" > Embedded system <br>
+                                <input type="checkbox" name="IT[]" value="Mobile development">Mobile development<br>
+                                <input type="checkbox" name="IT[]" value="Network administration"> Network administration <br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="IT[]"  value="Software development"  >Software development<br>
+                                <input type="checkbox" name="IT[]"  value="Software security" >Software security <br>
+                                <input type="checkbox" name="IT[]"  value="Web development" > Web development<br>
+                                <input type="checkbox" name="IT[]"  value="Other_IT" > Other  <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!-- End modal Websites And IT (2)-->
+
+    <!-- Start Engineering -->
+    <div class="modal fade" id="successModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-cogs"></i> Engineering</h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Engineering[]" value="Aerospace" > Aerospace<br>
+                                <input type="checkbox" name="Engineering[]" value="Agriculture" > Agriculture<br>
+                                <input type="checkbox" name="Engineering[]"  value="Automative" > Automative <br>
+                                <input type="checkbox" name="Engineering[]"  value="Biomedical" > Biomedical<br>
+                                <input type="checkbox" name="Engineering[]"  value="Chemical" > Chemical<br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Engineering[]" value="Civil" > Civil<br>
+                                <input type="checkbox" name="Engineering[]" value="Computer" > Computer<br>
+                                <input type="checkbox" name="Engineering[]" value="Drafting and design" > Drafting and design<br>
+                                <input type="checkbox" name="Engineering[]" value="Electrical" > Electrical<br>
+                                <input type="checkbox" name="Engineering[]" value="Environmental" > Environmental<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Engineering[]" value="Marine"> Marine <br>
+                                <input type="checkbox" name="Engineering[]" value="Mechanical">  Mechanical<br>
+                                <input type="checkbox" name="Engineering[]" value="Petroleum"> Petroleum<br>
+                                <input type="checkbox" name="Engineering[]" value="Software"> Software<br>
+                                <input type="checkbox" name="Engineering[]" value="Engineering_Other"> Other<br>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End Mobile Phones (2)and computing-->
+
+    <!-- Satart Writinh journalism (3) -->
+    <div class="modal fade" id="successModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-pencil" aria-hidden="true"></i> Media, Journalism and Writing </h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Journalism[]" value="Animation" >Animation<br>
+                                <input type="checkbox" name="Journalism[]" value="Broadcasting" >Broadcasting<br>
+                                <input type="checkbox" name="Journalism[]" value="Film-Video editor" >Film-Video editor <br>
+                                <input type="checkbox" name="Journalism[]" value="Graphdesigner" >Graphdesigner <br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Journalism[]" value="Journalism" >Journalism<br>
+                                <input type="checkbox" name="Journalism[]" value="Reporter" >Reporter<br>
+                                <input type="checkbox" name="Journalism[]" value="Radio production" >Radio production<br>
+                                <input type="checkbox" name="Journalism[]" value="Television Production" >Television Production<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Journalism[]" value="Photo Journalism" >Photo Journalism<br>
+                                <input type="checkbox" name="Journalism[]" value="writer" >writer<br>
+                                <input type="checkbox" name="Journalism[]" value="Journalism_Other" >Other<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+
+    <!-- End  journalism writing  (3)-->
+
+
+
+    <!-- Start Design media , Architcture (4)-->
+    <div class="modal fade" id="successModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-paint-brush" aria-hidden="true" ></i>   Art, Design & Decoration </h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Art[]" value="Artist" >Artist <br>
+                                <input type="checkbox" name="Art[]" value="Art Teacher" > Art Teacher <br>
+                                <input type="checkbox" name="Art[]" value="Art Director" >Art Director <br>
+                                <input type="checkbox" name="Art[]" value="Art Critic for a Publication" >Art Critic for a Publication <br>
+                                <input type="checkbox" name="Art[]" value="Curator" >Curator <br>
+                                <input type="checkbox" name="Art[]" value="Photo Editing" > Photo Editing<br>
+                                <input type="checkbox" name="Art[]" value="Graphic Design" > Graphic Design<br>
+                                <input type="checkbox" name="Art[]"  value="Logo Design" >Logo Design<br>
+
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Art[]" value="interior design" > Interior Design<br>
+                                <input type="checkbox" name="Art[]" value="video services" > Video Services<br>
+                                <input type="checkbox" name="Art[]" value="3d design" >3D Design<br>
+                                <input type="checkbox" name="Art[]" value="after effects" >After Effects<br>
+                                <input type="checkbox"  name="Art[]" value="photoshop" > Photoshop<br>
+                                <input type="checkbox"  name="Art[]"  value=" fashion design" > Fashion Design<br>
+                                <input type="checkbox"  name="Art[]" value="Illustrator" >Illustrator<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+
+                                <input type="checkbox"  name="Art[]" value="adobe flash" > Adobe Flash<br>
+                                <input type="checkbox" name="Art[]" value="Set Decorator" >Set Decorator<br>
+                                <input type="checkbox" name="Art[]" value="Retail Store Design" >Retail Store Design<br>
+                                <input type="checkbox" name="Art[]" value="Furniture decorator" >Furniture decorator<br>
+                                <input type="checkbox" name="Art[]" value="Design Coordinator" >Design Coordinator<br>
+                                <input type="checkbox" name="Art[]" value="Entrepreneur" >Entrepreneur<br>
+                                <input type="checkbox" name="Art[]" value="Art_other" >Other<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+
+    <!-- End  Art design decoration (4)-->
+
+    <!-- Satart Data Entery Write content (5) -->
+    <div class="modal fade" id="successModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-keyboard-o" aria-hidden="true"></i>  Data Entry , Admin</h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox"  name="Admin[]" value="excel" > Excel<br>
+                                <input type="checkbox"  name="Admin[]"     value="web search" > Web Search<br>
+                                <input type="checkbox"  name="Admin[]" value="microsoft" > Microsoft Office <br>
+                                <input type="checkbox"  name="Admin[]" value="email_Handling" > Email Handling<br>
+                                <input type="checkbox"  name="Admin[]" value="video" > Video Upload<br>
+                                <input type="checkbox"  name="Admin[]" value="order processing" > Order Processing<br>
+                                <input type="checkbox"  name="Admin[]" value="investment research" > Investment Research<br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Admin[]"  value="data entry"> Data Entry<br>
+                                <input type="checkbox" name="Admin[]"  value="customer support" > Customer Support<br>
+                                <input type="checkbox" name="Admin[]"  value="call center"> Call Center<br>
+                                <input type="checkbox" name="Admin[]"  value="desktop support" > Desktop Support<br>
+                                <input type="checkbox" name="Admin[]"   value="data extraction " >Data Extraction<br>
+                                <input type="checkbox" name="Admin[]"   value="qualitative research " > Qualitative Research<br>
+                                <input type="checkbox"  name="Admin[]"   value="bpo" >BPO<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Admin[]" value="data processing" > Data Processing<br>
+                                <input type="checkbox" name="Admin[]" value="transcription"> Transcription<br>
+                                <input type="checkbox" name="Admin[]" value="customer Service" > Customer Service<br>
+                                <input type="checkbox" name="Admin[]" value="technical support " > Technical Support<br>
+                                <input type="checkbox" name="Admin[]" value="data analytics" > Data Analytics  <br>
+                                <input type="checkbox" name="Admin[]" value="microsoft outlook " > Microsoft Outlook<br>
+                                <input type="checkbox" name="Admin[]" value="telephone handling" > Telephone Handling<br>
+                                <input type="checkbox" name="Admin[]" value="real estate" > Real Estate<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End  Data Entery Write content (5)-->
+
+    <!-- Start  Engineering science  (6) -->
+    <div class="modal fade" id="successModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-flask" aria-hidden="true"></i>  Science </h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Science[]"  value="Acoustic consultant" >Acoustic consultant <br>
+                                <input type="checkbox" name="Science[]" value="Analytical textile" >Analytical textile <br>
+                                <input type="checkbox" name="Science[]" value="Astronomy"  >Astronomy<br>
+                                <input type="checkbox" name="Science[]" value="Biochemistry" >Biochemistry <br>
+                                <input type="checkbox" name="Science[]" value="Biology" >Biology <br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Science[]" value="Botany" >Botany<br>
+                                <input type="checkbox"  name="Science[]" value="Chemistry" >Chemistry<br>
+                                <input type="checkbox" name="Science[]" value="Ecology"  >Ecology<br>
+                                <input type="checkbox" name="Science[]" value="Mathematics"  >Mathematics<br>
+                                <input type="checkbox" name="Science[]" value="physics"  >physics<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Science[]" value="Paleontology">Paleontology<br>
+                                <input type="checkbox" name="Science[]" value="Geology"  >Geology<br>
+                                <input type="checkbox" name="Science[]" value="Zoology"  >Zoology<br>
+                                <input type="checkbox" name="Science[]" value="science_Other"  >Other<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End Engineering science  (6)-->
+
+    <!-- Start   Health care   (7) -->
+    <div class="modal fade" id="successModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-television"></i>Health care</h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Health[]" value="Clinical laboratory">Clinical laboratory<br>
+                                <input type="checkbox" name="Health[]" value="Diagnostic sonographer">Diagnostic sonographer<br>
+                                <input type="checkbox" name="Health[]" value="Emergency technician">Emergency technician<br>
+                                <input type="checkbox" name="Health[]" value="Message therapy">Message therapy<br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Health[]" value="Nursing">Nursing<br>
+                                <input type="checkbox" name="Health[]" value="Pharmacist">Pharmacist<br>
+                                <input type="checkbox" name="Health[]" value="Pharmacist assistant">Pharmacist assistant<br>
+                                <input type="checkbox" name="Health[]" value="Respiration therapis">Respiration therapist<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Health[]" value="speech language pathologist"><span style="font-size: 14px">speech language pathologist</span><br>
+                                <input type="checkbox" name="Health[]" value="therapy">therapy<br>
+                                <input type="checkbox" name="Health[]" value="Veterinarian">Veterinarian<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End  Health care   (7)-->
+
+    <!-- Start  Advertising sales and marketing(8) -->
+    <div class="modal fade" id="successModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-bar-chart" aria-hidden="true"></i> Advertising, Sales & Marketing </h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" value="Advertising" name="Advertising[]" >Advertising <br>
+                                <input type="checkbox" value="Sales" name="Advertising[]" > Sales<br>
+                                <input type="checkbox" value="Sales development rep" name="Advertising[]" >Sales development rep<br>
+                                <input type="checkbox" value="Account Executive" name="Advertising[]" >Account Executive<br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" value="Outside sales" name="Advertising[]" >Outside sales <br>
+                                <input type="checkbox" value="Digital Marketing" name="Advertising[]"> Digital Marketing <br>
+                                <input type="checkbox" value="Branding" name="Advertising[]" > Branding <br>
+                                <input type="checkbox" value="Market Research"  name="Advertising[]" > Market Research <br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" value="Telemarketing" name="Advertising[]" >Telemarketing <br>
+                                <input type="checkbox" value="Search Engine Marketing" name="Advertising[]" ><span style="font-size: 17px">Search Engine Marketing</span><br>
+                                <input type="checkbox" value="Advertising_Other" name="Advertising[]" >Other<br>
+                            </div>
+                        </div>
+                    </div>
+					  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End  sales markiting  (8)-->
+
+    <!-- Start  business Acounting and human resourses(9) -->
+    <div class="modal fade" id="successModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-university" aria-hidden="true"></i> Business, Accounting ,Human Resources & Finance</h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Business[]"  value="Accounting"> Accounting<br>
+                                <input type="checkbox"     name="Business[]"   value="Accounting clerk" >Accounting clerk<br>
+                                <input type="checkbox"    name="Business[]"   value="Accounting manager" > Accounting manager <br>
+                                <input type="checkbox" name="Business[]"  value="Budget analyst" >Budget analyst<br>
+                                <input type="checkbox" name="Business[]" value="Business Analysis"> Business Analysis <br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Business[]" value="Business development" >Business development<br>
+                                <input type="checkbox" name="Business[]" value="Economics">Economics<br>
+                                <input type="checkbox" name="Business[]" value="Collectors" >Collectors<br>
+                                <input type="checkbox" name="Business[]" value="Human resources" >Human resources<br>
+                                <input type="checkbox" name="Business[]" value="Management" >Management<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Business[]" value="Finance" >Finance<br>
+                                <input type="checkbox" name="Business[]"  value="Financial Analysis">Financial Analysis<br>
+                                <input type="checkbox" name="Business[]"  value="Business_other">Other<br>
+                            </div>
+                        </div>
+                    </div>
+					  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End   business Acounting and human resourses(9)-->
+
+    <!-- Start  business counting(10) -->
+    <div class="modal fade" id="successModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-globe"></i>  Translation & Languages</h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Translation[]" value="arabic"> Arabic <br>
+                                <input type="checkbox" name="Translation[]" value="English"> English <br>
+                                <input type="checkbox" name="Translation[]" value="Dutch">Dutch<br>
+                                <input type="checkbox" name="Translation[]" value="Simplified Chinese(China)"> Simplified Chinese(China)<br>
+                                <input type="checkbox" name="Translation[]" value="Italian"> Italian <br>
+                                <input type="checkbox" name="Translation[]" value="Korean"> Korean<br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Translation[]" value="Norwegian"> Norwegian<br>
+                                <input type="checkbox" name="Translation[]" value="Traditional Chinese">Traditional Chinese<br>
+                                <input type="checkbox" name="Translation[]" value="French"> French<br>
+                                <input type="checkbox" name="Translation[]" value="Hindi">Hindi<br>
+                                <input type="checkbox" name="Translation[]" value="Polish"> Polish<br>
+                                <input type="checkbox" name="Translation[]" value="Portuguese (Brazil)">Portuguese (Brazil)<br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Translation[]" value="spanish"> Spanish <br>
+                                <input type="checkbox" name="Translation[]" value="german"> German <br>
+                                <input type="checkbox" name="Translation[]" value="spanish (Spain)"> Spanish (Spain)<br>
+                                <input type="checkbox" name="Translation[]" value="swedish"> Swedish<br>
+                                <input type="checkbox" name="Translation[]" value="danish"> Danish <br>
+                                <input type="checkbox" name="Translation[]" value="indonesian"> Indonesian <br>
+                            </div>
+                        </div>
+                    </div>
+					  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End  sales markiting  (10)-->
+
+    <!-- Start local jobs(11) -->
+    <div class="modal fade" id="successModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                    <h4><i class="fa fa-briefcase" aria-hidden="true"></i> Local jobs</h4>
+                </div>
+                <div class="clearfix"></div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="mod1">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Local[]" value="videography" > Videography <br>
+                                <input type="checkbox" name="Local[]" value="delivery" > Delivery <br>
+                                <input type="checkbox" name="Local[]" value="Installation" > Installation<br>
+                                <input type="checkbox" name="Local[]" value="Events & wedding Planning" > Events & wedding Planning <br>
+                                <input type="checkbox" name="Local[]" value="Cooking-baking" > Cooking / Baking <br>
+                                <input type="checkbox" name="Local[]" value="Clothesline" > Clothesline<br>
+                                <input type="checkbox" name="Local[]" value="Moving" > Moving <br>
+                            </div>
+                        </div>
+                        <div class="mod2">
+                            <div class="col-md-4">
+                                <input type="checkbox" name="Local[]" value="Photography" > Photography<br>
+                                <input type="checkbox" name="Local[]" value="Pickup" > Pickup<br>
+                                <input type="checkbox" name="Local[]"  value="Cleaning" > Cleaning Domestic<br>
+                                <input type="checkbox" name="Local[]"  value="Building" >Building<br>
+                                <input type="checkbox" name="Local[]" value="Food takeaway" >Food Takeaway<br>
+                                <input type="checkbox" name="Local[]"  value="Furniture assembly " > Furniture Assembly <br>
+                                <input type="checkbox" name="Local[]" value="Hair styles"> Hair Styles <br>
+                            </div>
+                        </div>
+                        <div class="mod3">
+                            <div class="col-md-4">
+
+                                <input type="checkbox" name="Local[]" value="Make up"> Make Up<br>
+                                <input type="checkbox" name="Local[]" value="Handy Man Jobs">Handy Man Jobs<br>
+                                <input type="checkbox" name="Local[]" value="Carpentry"> Carpentry<br>
+                                <input type="checkbox" name="Local[]" value="Nursery">Nursery<br>
+                            </div>
+                        </div>
+                    </div>
+					  <input data-dismiss="modal" type="button" name="next" class="action-button next2" value="Next" />
+                </div>
+				  
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- End  local jobs (11)-->
+
+
+		   
+		   
+		   
+		   
+		   
+		   
+		   <!--Mohamed -->
+	   
+
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal1">
+                                <i class="fa fa-television" aria-hidden="true"></i>
+                                <h3>IT & Software Development</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal2" >
+                                <i class="fa fa-cogs" aria-hidden="true"></i>
+                                <h3>Engineering</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal3">
+                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                <h3>Media, Journalism & Writing</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal4">
+                                <i class="fa fa-paint-brush" aria-hidden="true" ></i>
+                                <h3>Art, Design & Decoration</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal5">
+                                <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                                <h3>Data Entry ,Admin</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module"  data-toggle="modal" href="#successModal6">
+                                <i class="fa fa-flask" aria-hidden="true"></i>
+                                <h3> Science</h3>
+                                <h3></h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal7">
+                                <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                                <h3>Health Care</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal8">
+                                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                <h3>Advertising, Sales & Marketing</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal9">
+                                <i class="fa fa-university" aria-hidden="true"></i>
+                                <h3>Business, Accounting ,Human Resources & Finance</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal10">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <h3>translation & Languages </h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="module" data-toggle="modal" href="#successModal11">
+                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                <h3>Local Jobs & Services </h3>
+                            </div>
+                        </div>
+                       
+                    </div>
+					
+					
+					
+
+		   
+
+
+		<input type="button" name="next" class="next action-button" value="Next" />
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		
+	</fieldset>
+		
+	   <fieldset>
+       <h2 class="fs-title " >Company Information <img src="images/icones/briefcase.png"> </h2>
+        
+         <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Company Name <img src="images/briefcase.png"></label> 
+            <div class="col-md-5">
+            	<input type="text" name="job_title" placeholder="Ex: Android Developer" />  
+            </div>
+          </div>
+         </div>
+	  </div>
+	
+            <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Company Logo <img src="images/icones/picture%20(1).png"></label> 
+            <div class="col-md-5">
+<input type="file" name="upload">
+                
+            </div>
+          </div>
+         </div>
+	  </div>
+        
+        
+              <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Location  <img src="images/icones/placeholder.png"></label> 
+            <div class="col-md-5">
+            	<input type="text" name="location" placeholder="Enter Job City " />  
+            </div>
+          </div>
+         </div>
+	  </div>
+        
+        
+              <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Apply to mail  <img src="images/icones/envelope.png"></label> 
+            <div class="col-md-5">
+            	<input type="email" name="email" placeholder="Enter Company Url @something.com " />  
+                
+            </div>
+          </div>
+         </div>
+	  </div>
+        <input type="button" name="previous" class="previous action-button" value="Previous" />
+		
+		<input  type="submit" class="action-button" value="Post Job" />
+	</fieldset>
+			 
+			 
+	 	 
+		   <fieldset>
+       <h2 class="fs-title " >Sarwat<img src="images/icones/briefcase.png"> </h2>
+        
+         <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Company Name <img src="images/briefcase.png"></label> 
+            <div class="col-md-5">
+            	<input type="text" name="job_title" placeholder="Ex: Android Developer" />  
+            </div>
+          </div>
+         </div>
+	  </div>
+	
+            <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Company Logo <img src="images/icones/picture%20(1).png"></label> 
+            <div class="col-md-5">
+<input type="file" name="upload">
+                
+            </div>
+          </div>
+         </div>
+	  </div>
+        
+        
+              <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Location  <img src="images/icones/placeholder.png"></label> 
+            <div class="col-md-5">
+            	<input type="text" name="location" placeholder="Enter Job City " />  
+            </div>
+          </div>
+         </div>
+	  </div>
+        
+        
+              <div class="container">
+            <div class="row">
+          <div class="col-md-12">
+          <label class="control-label col-md-3 mylabel">Apply to mail  <img src="images/icones/envelope.png"></label> 
+            <div class="col-md-5">
+            	<input type="email" name="email" placeholder="Enter Company Url @something.com " />  
+                
+            </div>
+          </div>
+         </div>
+	  </div>
+        
+		<input type="button" name="next" class="next action-button" value="Next" />
+	</fieldset>
+	
+        </form>
+    </div>
+
+    </script>
+ <!--Start js Files --> 
+ <script>
+			CKEDITOR.replace( 'main_problem' );
+   </script>
+  <script src="js/jquery-1.12.0.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+
+<script src="http://thecodeplayer.com/uploads/js/jquery-1.9.1.min.js"></script>
+
+<script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" ></script>
+    
+    
+  <script src="js/wow.min.js"></script>
+  <script src="js/select2.min.js"></script>
+ <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+<script> new WOW().init();</script>
+  <script src="js/jquery.bxslider.min.js"></script>
+
+<script src="js/tags.js"></script>
+ <!--End Js Files --> 
+</body>
+</html>
+    
+ 
